@@ -245,52 +245,7 @@ Developed interactive dashboards to visualize business KPIs and support data-dri
 
 </div>
 
-<details>
-<summary><b>⚙️ Snake setup (click if the animation above isn't showing)</b></summary>
-<br/>
 
-Save this as `.github/workflows/snake.yml` in this repo, then run it once from the **Actions** tab:
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 */6 * * *"
-  workflow_dispatch:
-  push:
-    branches: [ main ]
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: Platane/snk@v3
-        id: snake
-        with:
-          github_user_name: Devakesavan
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-**If it still doesn't show after running:**
-- Go to the repo's **Settings → Actions → General → Workflow permissions** and make sure **"Read and write permissions"** is selected, then re-run the workflow. `ghaction-github-pages` needs write access to push the `output` branch.
-- Confirm the `output` branch actually exists and contains `github-contribution-grid-snake-dark.svg` at its root.
-- Check the Action's run logs for a red ✗ step — a permissions error here is the most common cause of "ran but nothing appeared."
-
-</details>
-
----
 
 ### 🎯 Current Focus
 
