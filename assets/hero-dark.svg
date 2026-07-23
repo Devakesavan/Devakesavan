@@ -86,28 +86,28 @@
     <g transform="translate(520,208)">
         <clipPath id="clipPhrase0">
           <rect x="0" y="0" width="0" height="30">
-            <animate attributeName="width" values="182.4;182.4;0;0;0" keyTimes="0;0.05625;0.21875;0.25;1" dur="16.0s" repeatCount="indefinite"/>
+            <animate attributeName="width" values="0.0;182.4;182.4;0.0;0.0" keyTimes="0.0;0.03125;0.21875;0.25;1.0" dur="16.0s" repeatCount="indefinite"/>
           </rect>
         </clipPath>
         <text x="0" y="20" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="19" font-weight="600" fill="url(#accentGrad)" clip-path="url(#clipPhrase0)">AI / ML Engineer</text>
         
         <clipPath id="clipPhrase1">
           <rect x="0" y="0" width="0" height="30">
-            <animate attributeName="width" values="0;216.6;216.6;0;0;0" keyTimes="0;0.25;0.30625;0.46875;0.5;1" dur="16.0s" repeatCount="indefinite"/>
+            <animate attributeName="width" values="0.0;0.0;216.6;216.6;0.0;0.0" keyTimes="0.0;0.25;0.28125;0.46875;0.5;1.0" dur="16.0s" repeatCount="indefinite"/>
           </rect>
         </clipPath>
         <text x="0" y="20" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="19" font-weight="600" fill="url(#accentGrad)" clip-path="url(#clipPhrase1)">DevSecOps Architect</text>
         
         <clipPath id="clipPhrase2">
           <rect x="0" y="0" width="0" height="30">
-            <animate attributeName="width" values="0;250.8;250.8;0;0;0" keyTimes="0;0.5;0.55625;0.71875;0.75;1" dur="16.0s" repeatCount="indefinite"/>
+            <animate attributeName="width" values="0.0;0.0;250.8;250.8;0.0;0.0" keyTimes="0.0;0.5;0.53125;0.71875;0.75;1.0" dur="16.0s" repeatCount="indefinite"/>
           </rect>
         </clipPath>
         <text x="0" y="20" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="19" font-weight="600" fill="url(#accentGrad)" clip-path="url(#clipPhrase2)">Cloud Native Developer</text>
         
         <clipPath id="clipPhrase3">
           <rect x="0" y="0" width="0" height="30">
-            <animate attributeName="width" values="0;262.2;262.2;0;0" keyTimes="0;0.75;0.80625;0.96875;1.0" dur="16.0s" repeatCount="indefinite"/>
+            <animate attributeName="width" values="0.0;0.0;262.2;262.2;0.0" keyTimes="0.0;0.75;0.78125;0.96875;1.0" dur="16.0s" repeatCount="indefinite"/>
           </rect>
         </clipPath>
         <text x="0" y="20" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="19" font-weight="600" fill="url(#accentGrad)" clip-path="url(#clipPhrase3)">Open Source Contributor</text>
