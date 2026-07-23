@@ -226,17 +226,6 @@ Developed interactive dashboards to visualize business KPIs and support data-dri
 
 </div>
 
----
-
-### 🏅 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Devakesavan&theme=onedark&no-frame=true&row=1&column=7&margin-w=8&margin-h=8" />
-
-</div>
-
----
 
 ### 📈 Contribution Activity
 
