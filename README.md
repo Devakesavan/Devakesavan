@@ -265,7 +265,6 @@ Developed interactive dashboards to visualize business KPIs and support data-dri
 </div>
 
 <details>
-<summary><b>⚙️ Snake setup (click if the animation above isn't showing)</b></summary>
 <br/>
 
 
