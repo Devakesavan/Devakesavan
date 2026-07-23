@@ -219,10 +219,10 @@ Developed interactive dashboards to visualize business KPIs and support data-dri
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Devakesavan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=8B5CF6&text_color=C4B5FD" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Devakesavan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=8B5CF6&text_color=C4B5FD&count_private=true&cache_seconds=1800" width="48%"/>
 <img src="https://streak-stats.demolab.com?user=Devakesavan&theme=tokyonight&hide_border=true&background=0D1117&ring=8B5CF6&fire=A78BFA&currStreakLabel=C4B5FD" width="48%"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Devakesavan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C4B5FD" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Devakesavan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C4B5FD&cache_seconds=1800" width="48%"/>
 
 </div>
 
@@ -232,7 +232,7 @@ Developed interactive dashboards to visualize business KPIs and support data-dri
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Devakesavan&theme=juicyfresh&no-frame=true&row=1&column=7&margin-w=8" />
+<img src="https://github-profile-trophy.vercel.app/?username=Devakesavan&theme=onedark&no-frame=true&row=1&column=7&margin-w=8&margin-h=8" />
 
 </div>
 
