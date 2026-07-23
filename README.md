@@ -1,5 +1,13 @@
 <div align="center">
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img alt="Devanadhan C K — animated hero banner" src="assets/hero-dark.svg" width="100%"/>
+</picture>
+
+<br/><br/>
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F0C29,50:302B63,100:24243e&height=220&section=header&text=Devanadhan%20C%20K&fontSize=42&fontColor=D8B4FE&animation=fadeIn&fontAlignY=38&desc=AI%20%7C%20DevOps%20%7C%20Cloud%20Engineer&descAlignY=58&descSize=18" width="100%"/>
 
 <a href="https://git.io/typing-svg">
@@ -226,6 +234,17 @@ Developed interactive dashboards to visualize business KPIs and support data-dri
 
 </div>
 
+---
+
+### 🏅 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=Devakesavan&theme=onedark&no-frame=true&row=1&column=7&margin-w=8&margin-h=8" />
+
+</div>
+
+---
 
 ### 📈 Contribution Activity
 
@@ -245,7 +264,52 @@ Developed interactive dashboards to visualize business KPIs and support data-dri
 
 </div>
 
+<details>
+<summary><b>⚙️ Snake setup (click if the animation above isn't showing)</b></summary>
+<br/>
 
+Save this as `.github/workflows/snake.yml` in this repo, then run it once from the **Actions** tab:
+
+```yaml
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: Devakesavan
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+**If it still doesn't show after running:**
+- Go to the repo's **Settings → Actions → General → Workflow permissions** and make sure **"Read and write permissions"** is selected, then re-run the workflow. `ghaction-github-pages` needs write access to push the `output` branch.
+- Confirm the `output` branch actually exists and contains `github-contribution-grid-snake-dark.svg` at its root.
+- Check the Action's run logs for a red ✗ step — a permissions error here is the most common cause of "ran but nothing appeared."
+
+</details>
+
+---
 
 ### 🎯 Current Focus
 
